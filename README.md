@@ -58,14 +58,16 @@ git push --set-upstream origin task0  # up date the task0 branch of the remote r
 
 Go to the GitHub webpage and make a pull request
 
+folder structure:
 
-## Steps to do-
+data collection
+	- images 
+		-	All input images
+	- text_data
+		- CSV files of text input for all users
+	- gaze_data
+		- CSV files of gaze data for all users
+	- eye-tracker.py {userID}
+	- test.py {userID}
 
-Gaze data preprocessing (wednesday)
-- write python file to remove gaze data before the name button is pressed and after last data
-- check if data is 1 person -> all images or 1 image -> all people
 
-Running VLSA
-- import all modules and make the bash scripts run (tuesday)
-- test with 10 images (tuesday)
-- test the entire dataset used by them and plot on images (wednesday)
