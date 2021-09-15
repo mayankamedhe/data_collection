@@ -42,7 +42,8 @@ $ git checkout task0  # switch into the task0 branch
 
 Make sure you already have a folder named CSV
 ```bash
-$ python test.py
+$ python eye-tracker.py {userID} > gaze_data/userID.csv
+$ python test.py {userID}
 ```
 
 ### Upload changes to task0 branch
